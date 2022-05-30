@@ -75,7 +75,15 @@
 	}
 </script>
 
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css">
+<svelte:head> 
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="stylesheet" href="https://unpkg.com/papercss@1.8.3/dist/paper.min.css">
+		<title>Document</title>
+	  </head>
+</svelte:head>
 
 <div class="center"> 
 	<h1> Linear Regression Demo to Piss Off Ronak </h1>
@@ -91,7 +99,7 @@
 	</Form>
 
 	<p style="font-size: 2em;"> Basically ronak doesn't like p5.js. i used papercss tho so i dont think he'll be too mad </p>
-	<footer> this is basically a small addition of the coding train challenge <a href="https://www.youtube.com/watch?v=dLp10CFIvxI"> in this video </a>  </footer>
+	<p style="font-size: 1.5em;"> this is basically a small addition of the coding train challenge <a href="https://www.youtube.com/watch?v=dLp10CFIvxI"> in this video </a>  </p>
 </div>
 
 <style> 
